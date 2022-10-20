@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/RecapSelector/index.js", "components/GameSelector/index.js", "components/GameHeader/index.js", "components/DisplayStat/index.js", "components/DisplayRecap/index.js", "components/DisplayPlayersStats/index.js", "components/DisplayGKStats/index.js", "components/DisplayPlayerRoster/index.js", "pages/index.js"],
   "exclude": ["node_modules"]
 }
