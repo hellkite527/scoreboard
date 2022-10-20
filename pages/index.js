@@ -12,7 +12,7 @@ import BIFVsLHC from '../public/data/12771.json'
 import BIFVsFBK from '../public/data/12915.json'
 import FHCVsIKO from '../public/data/12939.json'
 
-const Home = () => {
+const ScoreboardHome = () => {
   const [gameId, setGameId] = useState('12771')
   const [teamLogo, setTeamLogo] = useState({})
   const [recap, setRecap] = useState({})
@@ -100,4 +100,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default ScoreboardHome
